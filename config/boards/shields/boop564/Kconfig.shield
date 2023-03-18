@@ -1,0 +1,2 @@
+config SHIELD_BOOP564
+    def_bool $(shield_list_contains, boop564)
