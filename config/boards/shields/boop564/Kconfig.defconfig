@@ -3,4 +3,11 @@ if SHIELD_BOOP564
 config ZMK_KEYBOARD_NAME
     default "boop564"
 
+config CONFIG_BT
+    default y
+
+config CONFIG_ZMK_BLE
+    default y
+
+
 endif
