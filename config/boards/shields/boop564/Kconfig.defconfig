@@ -4,10 +4,11 @@ config ZMK_KEYBOARD_NAME
     default "boop564"
 
 config CONFIG_BT
+    bool
     default y
 
 config CONFIG_ZMK_BLE
+    bool
     default y
-
 
 endif
