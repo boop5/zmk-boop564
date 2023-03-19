@@ -6,6 +6,11 @@
         zmk,matrix_transform = &default_transform;
     };
 
+    bluetooth {
+        status = "okay";
+        compatible = "zmk,bt";
+    };
+
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "default_kscan";
